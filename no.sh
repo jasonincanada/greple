@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # add to the list of letters that it can't have
 

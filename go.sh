@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # construct and run our multi-stage grep command
 

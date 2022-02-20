@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # reset the inclusion/exclusion lists
 rm -f include.txt
