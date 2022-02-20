@@ -9,7 +9,8 @@ ENV ENV="/etc/profile"
 COPY words .
 
 # copy scripts that build and run the custom grep commands
-COPY new.sh has.sh no.sh go.sh ./
+COPY         new.sh has.sh no.sh go.sh ./
+RUN chmod +x new.sh has.sh no.sh go.sh
 
 # start a new session; ie, reset the candidate words file
 RUN ./new.sh
