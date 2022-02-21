@@ -3,6 +3,13 @@
 Cheat better at Wordle!  This is a small dockerized container that lets you interactively whittle down the remaining possible words until you have 1 left
 
 ```bash
+# pull the image from Docker Hub and run it interactively
+~/greple$ docker run -it --rm jasonincanada/greple
+```
+
+Or if you prefer to clone the repo and build the image locally:
+
+```bash
 # clone this repo locally
 ~$ git clone https://github.com/jasonincanada/greple.git
 ~$ cd greple
