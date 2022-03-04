@@ -20,6 +20,7 @@ if [ -f "exclude.txt" ]; then
   CMD="$CMD | grep -v -E '$EXCLUDE'"
 fi
 
+echo $CMD > command
 eval $CMD > leftover
 
 cat leftover
